@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interactive Opening Preview</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Opening Preview</h1>
+    <div id="live" class="panel">
+      <div class="row"><span>Next Open:</span><strong id="next">--</strong></div>
+      <div class="row"><span>Indicator:</span><span id="ind" style="font-weight:600">-</span></div>
+      <canvas id="spark" width="600" height="120" aria-label="sparkline"></canvas>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
